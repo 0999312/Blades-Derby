@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "blades_derby:uma_odachi_halo",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:smite"
+          }
+        ],
+        "refine": 10
+      }
+    },
+    "G": {
+      "item": "slashblade:proudsoul"
+    },
+    "J": {
+      "item": "umapyoi:jewel"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "W": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "pattern": [
+    " JS",
+    "JSW",
+    "BWG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
