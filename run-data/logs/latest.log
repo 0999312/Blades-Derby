@@ -1,28 +1,28 @@
-[283月2025 06:19:57.187] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\mr099\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, blades_derby, --all, --output, D:\minecraft_1201_modding\Blades-Derby\src\generated\resources, --existing, D:\minecraft_1201_modding\Blades-Derby\src\main\resources]
-[283月2025 06:19:57.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[283月2025 06:19:57.303] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[283月2025 06:19:57.337] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/mr099/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[283月2025 06:19:57.584] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[283月2025 06:19:57.586] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[283月2025 06:19:57.588] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[283月2025 06:19:57.592] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
-[283月2025 06:19:57.691] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[283月2025 06:19:58.772] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[283月2025 06:19:58.778] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\mr099\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, blades_derby, --all, --output, D:\minecraft_1201_modding\Blades-Derby\src\generated\resources, --existing, D:\minecraft_1201_modding\Blades-Derby\src\main\resources]
-[283月2025 06:19:59.454] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [blades_derby]
-[283月2025 06:20:02.719] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
-[283月2025 06:20:02.720] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
-[283月2025 06:20:03.031] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[283月2025 06:20:03.040] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.232 ms
-[283月2025 06:20:03.480] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mr099/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[283月2025 06:20:03.480] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mr099/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[283月2025 06:20:03.695] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[283月2025 06:20:03.791] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 94 ms
-[283月2025 06:20:03.791] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
-[283月2025 06:20:03.791] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
-[283月2025 06:20:03.791] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: SlashBlade Definition Registry
-[283月2025 06:20:03.797] [main/INFO] [net.minecraft.data.DataGenerator/]: SlashBlade Definition Registry finished after 4 ms
-[283月2025 06:20:03.797] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Support Card Definition Registry
-[283月2025 06:20:03.797] [main/INFO] [net.minecraft.data.DataGenerator/]: Support Card Definition Registry finished after 0 ms
-[283月2025 06:20:03.797] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 101 ms
-[283月2025 06:20:03.800] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 13, old count: 13, new count: 14, removed stale: 0, written: 1
+[074月2025 22:19:20.943] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\mr099\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, blades_derby, --all, --output, D:\minecraft_1201_modding\Blades-Derby\src\generated\resources, --existing, D:\minecraft_1201_modding\Blades-Derby\src\main\resources]
+[074月2025 22:19:20.949] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[074月2025 22:19:21.074] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[074月2025 22:19:21.109] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/mr099/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[074月2025 22:19:21.378] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[074月2025 22:19:21.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[074月2025 22:19:21.384] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[074月2025 22:19:21.387] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
+[074月2025 22:19:21.511] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[074月2025 22:19:22.630] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[074月2025 22:19:22.639] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\mr099\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, blades_derby, --all, --output, D:\minecraft_1201_modding\Blades-Derby\src\generated\resources, --existing, D:\minecraft_1201_modding\Blades-Derby\src\main\resources]
+[074月2025 22:19:23.389] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [blades_derby]
+[074月2025 22:19:26.529] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[074月2025 22:19:26.530] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[074月2025 22:19:26.865] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[074月2025 22:19:26.875] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.448 ms
+[074月2025 22:19:27.325] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mr099/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[074月2025 22:19:27.325] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mr099/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[074月2025 22:19:27.586] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[074月2025 22:19:27.659] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 71 ms
+[074月2025 22:19:27.659] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[074月2025 22:19:27.659] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
+[074月2025 22:19:27.660] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: SlashBlade Definition Registry
+[074月2025 22:19:27.665] [main/INFO] [net.minecraft.data.DataGenerator/]: SlashBlade Definition Registry finished after 5 ms
+[074月2025 22:19:27.665] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Support Card Definition Registry
+[074月2025 22:19:27.665] [main/INFO] [net.minecraft.data.DataGenerator/]: Support Card Definition Registry finished after 0 ms
+[074月2025 22:19:27.665] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 79 ms
+[074月2025 22:19:27.670] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 13, old count: 13, new count: 14, removed stale: 0, written: 4

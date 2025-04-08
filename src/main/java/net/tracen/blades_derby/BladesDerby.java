@@ -4,7 +4,9 @@ import com.mojang.logging.LogUtils;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.tracen.blades_derby.se.SpecialEffectRegistry;
 import net.tracen.blades_derby.umaskill.UmaSkillRegistry;
@@ -25,6 +27,8 @@ public class BladesDerby {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		SpecialEffectRegistry.SPECIAL_EFFECT.register(modEventBus);
 		UmaSkillRegistry.UMA_SKILLS.register(modEventBus);
+		
+		ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, BladesDerbyConfig.SPEC);
 	}
 
 	public static Logger getLogger() {

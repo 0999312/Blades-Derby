@@ -63,7 +63,7 @@ public class BuiltInSlashBladeRegistry {
                         PropertiesDefinition.Builder.newInstance().baseAttackModifier(9.0F).maxDamage(45)
 								.defaultSwordType(List.of(SwordType.BEWITCHED))
 								.addSpecialEffect(SpecialEffectRegistry.UMA_SPECIAL.getId())
-								.slashArtsType(SlashArtsRegistry.DRIVE_VERTICAL.getId()).build(),
+								.slashArtsType(SlashArtsRegistry.SAKURA_END.getId()).build(),
 						List.of(
 								new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 1),
 								new EnchantmentDefinition(getEnchantmentID(Enchantments.MOB_LOOTING), 1)
@@ -79,7 +79,7 @@ public class BuiltInSlashBladeRegistry {
                         PropertiesDefinition.Builder.newInstance().baseAttackModifier(9.0F).maxDamage(45)
 								.defaultSwordType(List.of(SwordType.BEWITCHED))
 								.addSpecialEffect(SpecialEffectRegistry.UMA_SPECIAL.getId())
-								.slashArtsType(SlashArtsRegistry.VOID_SLASH.getId()).build(),
+								.slashArtsType(SlashArtsRegistry.CIRCLE_SLASH.getId()).build(),
 						List.of(
 								new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 1),
 								new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER_ARROWS), 1)

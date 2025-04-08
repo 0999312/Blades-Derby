@@ -11,7 +11,7 @@
   "properties": {
     "attack_base": 9.0,
     "max_damage": 45,
-    "slash_art": "slashblade:drive_vertical",
+    "slash_art": "slashblade:sakura_end",
     "special_effects": [
       "blades_derby:uma_special"
     ],

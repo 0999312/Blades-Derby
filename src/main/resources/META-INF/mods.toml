@@ -24,7 +24,7 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]]
     modId="slashblade"
     mandatory=true
-    versionRange="[1.1.24,)"
+    versionRange="[1.1.28,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.${mod_id}]]
