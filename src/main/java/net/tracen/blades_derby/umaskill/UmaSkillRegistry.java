@@ -12,4 +12,7 @@ public class UmaSkillRegistry {
 	
 	public static final RegistryObject<UmaSkill> IAIDO = UMA_SKILLS.register("iaido",
             () -> new PassiveSkill(new UmaSkill.Builder().level(2).requiredWisdom(5)));
+	
+	public static final RegistryObject<UmaSkill> BREATH_OF_NATURE = UMA_SKILLS.register("breath_of_nature",
+            () -> new PassiveSkill(new UmaSkill.Builder().level(2).requiredWisdom(5)));
 }

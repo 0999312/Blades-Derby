@@ -142,14 +142,14 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("cn.mcmod_mmf.mysterious_mountain_lib:MMLib:1.4.12-1.20.1")
+    implementation fg.deobf("cn.mcmod_mmf.mysterious_mountain_lib:MMLib:1.5.22-1.20.1")
     // Compile against only the API artifact
-    compileOnly(fg.deobf("top.theillusivec4.curios:curios-forge:5.4.5+1.20.1:api"))
+    compileOnly(fg.deobf("top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api"))
     // Use the full Curios API jar at runtime
-    runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:5.4.5+1.20.1"))
+    runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:5.14.1+1.20.1"))
     
-    implementation fg.deobf("maven.modrinth:slashblade-resharped:1.1.28")
-    implementation fg.deobf("maven.modrinth:umapyoi:1.8.48-1.20.1")
+    implementation fg.deobf("maven.modrinth:slashblade-resharped:1.4.44")
+    implementation fg.deobf("maven.modrinth:umapyoi:1.9.59-1.20.1")
 	implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:${project.player_anim}")
     
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-83-FORGE")

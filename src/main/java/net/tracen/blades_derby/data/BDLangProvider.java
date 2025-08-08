@@ -31,6 +31,11 @@ public class BDLangProvider extends AbstractLangProvider {
 		addSlashBlade(BuiltInSlashBladeRegistry.UMA_ODACHI_HALO, "Odachi-Halo-");
 		
 		addSkill(UmaSkillRegistry.IAIDO, "Iaido");
+		addSkillDetail(UmaSkillRegistry.IAIDO, "Increase the damage of SlashBlade.");
+		
+		addSkill(UmaSkillRegistry.BREATH_OF_NATURE, "Breath of Nature");
+		addSkillDetail(UmaSkillRegistry.BREATH_OF_NATURE, "Decrease the AP cost of Uma Soul Resonance.");
+		
         add(Util.makeDescriptionId("umadata", new ResourceLocation(Umapyoi.MODID, "saint_lite")), "Saint Lite");
         add("se.blades_derby.uma_special", "Uma Soul Resonance");
 		addSupportCard(BuiltInSupportCardRegistry.SAINT_LITE_IAIDO, "[Clean Cut] Saint Lite");
@@ -52,7 +57,6 @@ public class BDLangProvider extends AbstractLangProvider {
 		add(Util.makeDescriptionId("item", key), name);
 	}
 	
-
     private void addSkill(Supplier<UmaSkill> key, String name) {
         addSkill(key.get(), name);
     }
@@ -60,5 +64,12 @@ public class BDLangProvider extends AbstractLangProvider {
     private void addSkill(UmaSkill key, String name) {
         add(key.getDescriptionId(), name);
     }
+    
+    private void addSkillDetail(Supplier<UmaSkill> key, String name) {
+    	addSkillDetail(key.get(), name);
+    }
 
+    private void addSkillDetail(UmaSkill key, String name) {
+        add(key.getDetailDescriptionId(), name);
+    }
 }

@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.tracen.blades_derby.BladesDerbyConfig;
+import net.tracen.blades_derby.umaskill.UmaSkillRegistry;
 import net.tracen.umapyoi.api.UmapyoiAPI;
 import net.tracen.umapyoi.utils.UmaSoulUtils;
 
@@ -51,7 +52,7 @@ public class UmaSpecial extends SpecialEffect {
 			if (SpecialEffect.isEffective(SpecialEffectRegistry.UMA_SPECIAL.getId(),
 					user instanceof Player ? ((Player) user).experienceLevel : 0)) {
 				boolean equiped = !UmapyoiAPI.getUmaSoul(user).isEmpty();
-				int ap = equiped ?UmaSoulUtils.getActionPoint(UmapyoiAPI.getUmaSoul(user)):0;
+				int ap = equiped ? UmaSoulUtils.getActionPoint(UmapyoiAPI.getUmaSoul(user)) : 0;
 				event.setPowered(equiped && ap >= BladesDerbyConfig.getAPCost());
 			}
 		}
@@ -67,8 +68,13 @@ public class UmaSpecial extends SpecialEffect {
 				ItemStack umaSoul = UmapyoiAPI.getUmaSoul(user);
 				boolean equiped = !umaSoul.isEmpty();
 				int ap = equiped ?UmaSoulUtils.getActionPoint(umaSoul) : 0;
+
+				
 				if(equiped && ap >= BladesDerbyConfig.getAPCost()) {
-					UmaSoulUtils.setActionPoint(umaSoul, ap - BladesDerbyConfig.getAPCost());
+					int cost = BladesDerbyConfig.getAPCost();
+					if(UmaSoulUtils.hasSkill(umaSoul, UmaSkillRegistry.BREATH_OF_NATURE.getId()))
+						cost *= 0.8;
+					UmaSoulUtils.setActionPoint(umaSoul, ap - cost);
 				}
 			}
 		}

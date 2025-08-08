@@ -5,6 +5,9 @@
   "item.blades_derby.uma_odachi_haru": "Odachi-Haru-",
   "se.blades_derby.uma_special": "Uma Soul Resonance",
   "support_card.umapyoi.saint_lite_iaido.name": "[Clean Cut] Saint Lite",
+  "uma_skill.blades_derby.breath_of_nature": "Breath of Nature",
+  "uma_skill.blades_derby.breath_of_nature.desc": "Decrease the AP cost of Uma Soul Resonance.",
   "uma_skill.blades_derby.iaido": "Iaido",
+  "uma_skill.blades_derby.iaido.desc": "Increase the damage of SlashBlade.",
   "umadata.umapyoi.saint_lite": "Saint Lite"
 }

@@ -5,6 +5,9 @@
   "item.blades_derby.uma_odachi_haru": "大太刀「春麗」",
   "se.blades_derby.uma_special": "馬魂共鳴",
   "support_card.umapyoi.saint_lite_iaido.name": "[一刀兩斷] 聖烈特",
+  "uma_skill.blades_derby.breath_of_nature": "軀幹吐息",
+  "uma_skill.blades_derby.breath_of_nature.desc": "降低馬魂共鳴所消耗的行動力。",
   "uma_skill.blades_derby.iaido": "居合道",
+  "uma_skill.blades_derby.iaido.desc": "提升拔刀劍的傷害。",
   "umadata.umapyoi.saint_lite": "聖烈特"
 }
