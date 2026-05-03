@@ -9,15 +9,16 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 ## Current
 
 - **Phase:** 1 — Build & Entry
-- **Status:** pending
-- **Started:** —
+- **Status:** context gathered
+- **Started:** 2026-05-04
 - **Goal:** Project compiles on NeoForge 1.21.1
+- **Context:** `.planning/phases/01-build-and-entry/01-CONTEXT.md`
 
 ## Progress
 
 | Phase | Status | Plans | Progress |
 |-------|--------|-------|----------|
-| 1     | ○      | 0/0   | 0%       |
+| 1     | ◆      | 0/0   | context ready |
 | 2     | ○      | 0/0   | 0%       |
 | 3     | ○      | 0/0   | 0%       |
 
@@ -31,12 +32,15 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 | Requirements | `.planning/REQUIREMENTS.md` | ✓ Created |
 | Roadmap | `.planning/ROADMAP.md` | ✓ Created |
 | State | `.planning/STATE.md` | ✓ Created |
+| Phase 1 Context | `.planning/phases/01-build-and-entry/01-CONTEXT.md` | ✓ Created |
+| Phase 1 Discussion | `.planning/phases/01-build-and-entry/01-DISCUSSION-LOG.md` | ✓ Created |
 
 ## Commits
 
 - `c158566` — docs: map existing codebase
 - `345229c` — docs: initialize project
-- _(latest pending)_ — docs: create roadmap
+- `eaf5d06` — docs: create roadmap (3 phases)
+- `7efd1e3` — docs(01): capture phase context
 
 ## Notes
 
@@ -44,3 +48,9 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 - 1.21.1 NeoForge dependency coordinates confirmed in PREREQUISITES.md
 - Migration execution uses `loader-diff-research` and `vanilla-code-research` agents for API mapping
 - 21 requirements across 3 phases — all mapped
+- Phase 1 context: 13 implementation decisions captured across dependency cleanup, mappings, and publishing
+
+## Session
+
+- Stopped at: Phase 1 context gathered
+- Resume: `.planning/phases/01-build-and-entry/01-CONTEXT.md`
