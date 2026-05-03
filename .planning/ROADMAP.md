@@ -36,6 +36,19 @@
 
 **Research notes:** See `docs/migration/PREREQUISITES.md` for confirmed 1.21.1 dependency coordinates. Use `loader-diff-research` for any uncertain NeoGradle/build API differences.
 
+**Plans:** 3 plans
+
+| Plan | Objective | Wave | Files |
+|------|-----------|------|-------|
+| 01-01 | Update gradle.properties and settings.gradle for NeoForge 1.21.1 | 1 | gradle.properties, settings.gradle |
+| 01-02 | Migrate build.gradle to NeoGradle with all deps and publishing | 2 | build.gradle |
+| 01-03 | Convert mods.toml to neoforge.mods.toml and migrate @Mod entry point | 3 | neoforge.mods.toml, BladesDerby.java |
+
+Plans:
+- [ ] 01-01-PLAN.md — Gradle properties and plugin repos for NeoForge 1.21.1
+- [ ] 01-02-PLAN.md — build.gradle migration to NeoGradle
+- [ ] 01-03-PLAN.md — Mod metadata and @Mod entry point migration
+
 ---
 
 ## Phase 2: Registration & Events

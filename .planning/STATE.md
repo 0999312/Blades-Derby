@@ -9,16 +9,17 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 ## Current
 
 - **Phase:** 1 — Build & Entry
-- **Status:** context gathered
+- **Status:** planned
 - **Started:** 2026-05-04
 - **Goal:** Project compiles on NeoForge 1.21.1
 - **Context:** `.planning/phases/01-build-and-entry/01-CONTEXT.md`
+- **Plans:** 3 plans created (01-01, 01-02, 01-03)
 
 ## Progress
 
 | Phase | Status | Plans | Progress |
 |-------|--------|-------|----------|
-| 1     | ◆      | 0/0   | context ready |
+| 1     | ◆      | 0/3   | planned |
 | 2     | ○      | 0/0   | 0%       |
 | 3     | ○      | 0/0   | 0%       |
 
@@ -34,6 +35,9 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 | State | `.planning/STATE.md` | ✓ Created |
 | Phase 1 Context | `.planning/phases/01-build-and-entry/01-CONTEXT.md` | ✓ Created |
 | Phase 1 Discussion | `.planning/phases/01-build-and-entry/01-DISCUSSION-LOG.md` | ✓ Created |
+| Phase 1 Plan 01 | `.planning/phases/01-build-and-entry/01-01-PLAN.md` | ✓ Created |
+| Phase 1 Plan 02 | `.planning/phases/01-build-and-entry/01-02-PLAN.md` | ✓ Created |
+| Phase 1 Plan 03 | `.planning/phases/01-build-and-entry/01-03-PLAN.md` | ✓ Created |
 
 ## Commits
 
