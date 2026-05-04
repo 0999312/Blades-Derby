@@ -9,17 +9,18 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 ## Current
 
 - **Phase:** 1 — Build & Entry
-- **Status:** planned
+- **Status:** completed
 - **Started:** 2026-05-04
+- **Completed:** 2026-05-04
 - **Goal:** Project compiles on NeoForge 1.21.1
 - **Context:** `.planning/phases/01-build-and-entry/01-CONTEXT.md`
-- **Plans:** 3 plans created (01-01, 01-02, 01-03)
+- **Plans:** 3/3 completed (01-01, 01-02, 01-03)
 
 ## Progress
 
 | Phase | Status | Plans | Progress |
 |-------|--------|-------|----------|
-| 1     | ◆      | 0/3   | planned |
+| 1     | ✓      | 3/3   | completed |
 | 2     | ○      | 0/0   | 0%       |
 | 3     | ○      | 0/0   | 0%       |
 
@@ -35,9 +36,12 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 | State | `.planning/STATE.md` | ✓ Created |
 | Phase 1 Context | `.planning/phases/01-build-and-entry/01-CONTEXT.md` | ✓ Created |
 | Phase 1 Discussion | `.planning/phases/01-build-and-entry/01-DISCUSSION-LOG.md` | ✓ Created |
-| Phase 1 Plan 01 | `.planning/phases/01-build-and-entry/01-01-PLAN.md` | ✓ Created |
-| Phase 1 Plan 02 | `.planning/phases/01-build-and-entry/01-02-PLAN.md` | ✓ Created |
-| Phase 1 Plan 03 | `.planning/phases/01-build-and-entry/01-03-PLAN.md` | ✓ Created |
+| Phase 1 Plan 01 | `.planning/phases/01-build-and-entry/01-01-PLAN.md` | ✓ Completed |
+| Phase 1 Plan 02 | `.planning/phases/01-build-and-entry/01-02-PLAN.md` | ✓ Completed |
+| Phase 1 Plan 03 | `.planning/phases/01-build-and-entry/01-03-PLAN.md` | ✓ Completed |
+| Phase 1 Summary 01 | `.planning/phases/01-build-and-entry/01-01-SUMMARY.md` | ✓ Created |
+| Phase 1 Summary 02 | `.planning/phases/01-build-and-entry/01-02-SUMMARY.md` | ✓ Created |
+| Phase 1 Summary 03 | `.planning/phases/01-build-and-entry/01-03-SUMMARY.md` | ✓ Created |
 
 ## Commits
 
@@ -56,5 +60,5 @@ See: .planning/PROJECT.md (updated 2026-05-04)
 
 ## Session
 
-- Stopped at: Phase 1 context gathered
-- Resume: `.planning/phases/01-build-and-entry/01-CONTEXT.md`
+- Stopped at: Phase 1 complete (build system migrated)
+- Resume: Phase 2 — Registration & Events (`/gsd-execute-phase 2`)

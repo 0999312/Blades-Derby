@@ -1,9 +1,9 @@
-// 1.20.1	2025-03-28T06:10:23.7165293	Recipes
-c27c121fedb45229831addc8390614beca8b86f5 data/blades_derby/advancements/recipes/combat/uma_black.json
-0099edaecf020b417d25f17705888a33709df723 data/blades_derby/advancements/recipes/combat/uma_hishi.json
-d953c3d6b3f429d90cc87cd14f430b94437270a1 data/blades_derby/advancements/recipes/combat/uma_odachi_halo.json
-47ccc7d20b51c004e1e6b5296081ea0bcf0db8df data/blades_derby/advancements/recipes/combat/uma_odachi_haru.json
-8dcea887025a8d0392849be3dc5b00e60e8a6bbb data/blades_derby/recipes/uma_black.json
-b5444648d6c644ec0e5749157149a3ba5d1865d3 data/blades_derby/recipes/uma_hishi.json
-3eaa3ad3112c2a3cb0bc0b6abb316112290a9f83 data/blades_derby/recipes/uma_odachi_halo.json
-5c4e3df95d21cb58ea4168db8ae3074257e4141a data/blades_derby/recipes/uma_odachi_haru.json
+// 1.21.1	2026-05-04T07:52:54.5348864	Recipes
+a498097d0dbaa1507b94ed320c6d088f54d7a947 data/blades_derby/advancement/recipes/combat/uma_black.json
+eee9c130339db00bde51424dc73be404b9d5ef0d data/blades_derby/advancement/recipes/combat/uma_hishi.json
+884e294acf0fcc4847d06be397f3d660eae62d91 data/blades_derby/advancement/recipes/combat/uma_odachi_halo.json
+0dd6cc0c5b5893311de8f89ac5459aa0ede7d56f data/blades_derby/advancement/recipes/combat/uma_odachi_haru.json
+29adfbba1c3d6324d6f8c0cc3fed8e00fd94b258 data/blades_derby/recipe/uma_black.json
+b94d00519f0b891a8b5c82d8d64d94de630717c2 data/blades_derby/recipe/uma_hishi.json
+df3e109eb3f689adc9ddb93fa164d1947666e024 data/blades_derby/recipe/uma_odachi_halo.json
+815d0d4a841d2e88f1299bea13f02e4c6a48f0bd data/blades_derby/recipe/uma_odachi_haru.json

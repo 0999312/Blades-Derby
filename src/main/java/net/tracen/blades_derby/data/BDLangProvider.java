@@ -36,7 +36,7 @@ public class BDLangProvider extends AbstractLangProvider {
 		addSkill(UmaSkillRegistry.BREATH_OF_NATURE, "Breath of Nature");
 		addSkillDetail(UmaSkillRegistry.BREATH_OF_NATURE, "Decrease the AP cost of Uma Soul Resonance.");
 		
-        add(Util.makeDescriptionId("umadata", new ResourceLocation(Umapyoi.MODID, "saint_lite")), "Saint Lite");
+        add(Util.makeDescriptionId("umadata", ResourceLocation.fromNamespaceAndPath(Umapyoi.MODID, "saint_lite")), "Saint Lite");
         add("se.blades_derby.uma_special", "Uma Soul Resonance");
 		addSupportCard(BuiltInSupportCardRegistry.SAINT_LITE_IAIDO, "[Clean Cut] Saint Lite");
 	}
@@ -57,7 +57,7 @@ public class BDLangProvider extends AbstractLangProvider {
 		add(Util.makeDescriptionId("item", key), name);
 	}
 	
-    private void addSkill(Supplier<UmaSkill> key, String name) {
+    private void addSkill(Supplier<? extends UmaSkill> key, String name) {
         addSkill(key.get(), name);
     }
 
@@ -65,7 +65,7 @@ public class BDLangProvider extends AbstractLangProvider {
         add(key.getDescriptionId(), name);
     }
     
-    private void addSkillDetail(Supplier<UmaSkill> key, String name) {
+    private void addSkillDetail(Supplier<? extends UmaSkill> key, String name) {
     	addSkillDetail(key.get(), name);
     }
 

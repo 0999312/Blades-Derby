@@ -1,28 +1,312 @@
-[088月2025 10:39:46.334] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\mr099\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, blades_derby, --all, --output, D:\minecraft_1201_modding\Blades-Derby\src\generated\resources, --existing, D:\minecraft_1201_modding\Blades-Derby\src\main\resources]
-[088月2025 10:39:46.345] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[088月2025 10:39:46.470] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[088月2025 10:39:46.507] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/mr099/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[088月2025 10:39:46.773] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[088月2025 10:39:46.777] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[088月2025 10:39:46.782] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[088月2025 10:39:46.786] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\mr099\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
-[088月2025 10:39:46.914] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[088月2025 10:39:48.209] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[088月2025 10:39:48.217] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\mr099\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, blades_derby, --all, --output, D:\minecraft_1201_modding\Blades-Derby\src\generated\resources, --existing, D:\minecraft_1201_modding\Blades-Derby\src\main\resources]
-[088月2025 10:39:49.042] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [blades_derby]
-[088月2025 10:39:52.426] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
-[088月2025 10:39:52.427] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
-[088月2025 10:39:52.770] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[088月2025 10:39:52.779] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.966 ms
-[088月2025 10:39:53.237] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mr099/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[088月2025 10:39:53.238] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mr099/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[088月2025 10:39:53.508] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[088月2025 10:39:53.598] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 89 ms
-[088月2025 10:39:53.598] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
-[088月2025 10:39:53.599] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
-[088月2025 10:39:53.599] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: SlashBlade Definition Registry
-[088月2025 10:39:53.604] [main/INFO] [net.minecraft.data.DataGenerator/]: SlashBlade Definition Registry finished after 5 ms
-[088月2025 10:39:53.604] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Support Card Definition Registry
-[088月2025 10:39:53.604] [main/INFO] [net.minecraft.data.DataGenerator/]: Support Card Definition Registry finished after 0 ms
-[088月2025 10:39:53.604] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 96 ms
-[088月2025 10:39:53.609] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 13, old count: 13, new count: 14, removed stale: 0, written: 1
+[045月2026 07:58:48.489] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatadev, --assetIndex, 17, --assetsDir, C:\\Users\\mr099\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.228, --fml.neoFormVersion, 20240808.144430, --mod, blades_derby, --all, --output, D:\\minecraft_121_modding\\Blades-Derby\\src\\generated\\resources, --existing, D:\\minecraft_121_modding\\Blades-Derby\\src\\main\\resources]
+[045月2026 07:58:48.493] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[045月2026 07:58:48.494] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.3 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[045月2026 07:58:48.558] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file D:\minecraft_121_modding\Blades-Derby\run-data\config\fml.toml is not correct. Correcting
+[045月2026 07:58:48.584] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[045月2026 07:58:48.632] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/mr099/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[045月2026 07:58:48.638] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file D:\minecraft_121_modding\Blades-Derby\run-data\config\fml.toml is not correct. Correcting
+[045月2026 07:58:48.913] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[045月2026 07:58:48.915] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Blades Derby 2.0.0-1.21.1 (blades_derby)
+		Curios API 9.5.1+1.21.1 (curios)
+		Just Enough Items 19.27.0.340 (jei)
+		Minecraft 1.21.1 (minecraft)
+		Mysterious Mountain Lib 1.2.15-1.21.1 (mysterious_mountain_lib)
+		NeoForge 21.1.228 (neoforge)
+		Patchouli 1.21.1-93-NEOFORGE (patchouli)
+		Player Animator 2.0.4+1.21.1 (playeranimator)
+		Slash Blade:Resharpened 2.0.0-1.21.1 (slashblade)
+		Umapyoi 1.4.11-1.21.1 (umapyoi)
+[045月2026 07:58:49.704] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[045月2026 07:58:49.715] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\mr099\.gradle\caches\neoformruntime\assets, --assetIndex, 17, --mod, blades_derby, --all, --output, D:\\minecraft_121_modding\\Blades-Derby\\src\\generated\\resources, --existing, D:\\minecraft_121_modding\\Blades-Derby\\src\\main\\resources]
+[045月2026 07:58:49.827] [main/WARN] [mixin/]: Reference map 'slashblade.refmap.json' for slashblade.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.836] [main/WARN] [mixin/]: Reference map 'slashblade.refmap.json' for slashblade.ar.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.838] [main/WARN] [mixin/]: Reference map 'slashblade.refmap.json' for slashblade.emi.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.839] [main/WARN] [mixin/]: Reference map 'slashblade.refmap.json' for slashblade.patchouli.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.841] [main/WARN] [mixin/]: Reference map 'slashblade.refmap.json' for slashblade.thetwilightforest.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.842] [main/WARN] [mixin/]: Reference map 'mixins.mmlib.refmap.json' for mixins.mmlib.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.842] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.842] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.843] [main/WARN] [mixin/]: Reference map 'mixins.umapyoi.refmap.json' for mixins.umapyoi.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:49.843] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[045月2026 07:58:50.543] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [blades_derby]
+[045月2026 07:58:50.557] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[045月2026 07:58:54.935] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[045月2026 07:58:54.965] [modloading-worker-0/WARN] [patchouli/]: Could not locate JEI keybindings, lookups in books may not work
+[045月2026 07:58:55.008] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'DebugMode' is not a valid config key for config category 'debug'.
+Valid keys: [debugMode, debugGuis, debugInputs, debugInfoTooltipsEnabled, crashingTestItemsEnabled, crashingTestRecipesEnabled, logSuffixTreeStats]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-debug.ini
+Line #5: "	DebugMode = false"
+[045月2026 07:58:55.009] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'DebugGuis' is not a valid config key for config category 'debug'.
+Valid keys: [debugMode, debugGuis, debugInputs, debugInfoTooltipsEnabled, crashingTestItemsEnabled, crashingTestRecipesEnabled, logSuffixTreeStats]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-debug.ini
+Line #10: "	DebugGuis = false"
+[045月2026 07:58:55.009] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'DebugInputs' is not a valid config key for config category 'debug'.
+Valid keys: [debugMode, debugGuis, debugInputs, debugInfoTooltipsEnabled, crashingTestItemsEnabled, crashingTestRecipesEnabled, logSuffixTreeStats]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-debug.ini
+Line #15: "	DebugInputs = false"
+[045月2026 07:58:55.010] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'CrashingTestItemsEnabled' is not a valid config key for config category 'debug'.
+Valid keys: [debugMode, debugGuis, debugInputs, debugInfoTooltipsEnabled, crashingTestItemsEnabled, crashingTestRecipesEnabled, logSuffixTreeStats]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-debug.ini
+Line #25: "	CrashingTestItemsEnabled = false"
+[045月2026 07:58:55.015] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: '[modname]' is not a valid category name.
+Valid names are: [modName]
+Skipping all values until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-mod-id-format.ini
+Line #1: "[modname]"
+[045月2026 07:58:55.016] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-mod-id-format.ini
+Line #9: "	ModNameFormat = blue italic"
+[045月2026 07:58:55.019] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'SearchColors' is not a valid config key for config category 'colors'.
+Valid keys: [searchColors]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-colors.ini
+Line #6: "	SearchColors = White:EEEEEE, LightBlue:7492CC, Cyan:00EEEE, Blue:2222DD, LapisBlue:25418B, Teal:008080, Yellow:CACB58, GoldenYellow:EED700, Orange:D97634, Pink:D1899D, HotPink:FC0FC0, Magenta:B24BBB, Purple:813EB9, EvilPurple:2E1649, Lavender:B57EDC, Indigo:480082, Sand:DBD3A0, Tan:BB9B63, LightBrown:A0522D, Brown:634B33, DarkBrown:3A2D13, LimeGreen:43B239, SlimeGreen:83CB73, Green:008000, DarkGreen:224D22, GrassGreen:548049, Red:963430, BrickRed:B0604B, NetherBrick:2A1516, Redstone:CE3E36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0"
+[045月2026 07:58:55.029] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'CenterSearch' is not a valid config key for config category 'appearance'.
+Valid keys: [centerSearch, recipeGuiHeight]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #5: "	CenterSearch = false"
+[045月2026 07:58:55.029] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'RecipeGuiHeight' is not a valid config key for config category 'appearance'.
+Valid keys: [centerSearch, recipeGuiHeight]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #10: "	RecipeGuiHeight = 350"
+[045月2026 07:58:55.029] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: '[cheat_mode]' is not a valid category name.
+Valid names are: [appearance, cheating, bookmarks, tooltips, performance, lookups, lookupHistory, advanced, input, sorting, search, ingredientList, bookmarkList]
+Skipping all values until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #13: "[cheat_mode]"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #17: "	GiveMode = MOUSE_PICKUP"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #22: "	CheatToHotbarUsingHotkeysEnabled = false"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #27: "	ShowHiddenItems = false"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'AddBookmarksToFrontEnabled' is not a valid config key for config category 'bookmarks'.
+Valid keys: [addBookmarksToFrontEnabled, dragToRearrangeBookmarksEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #34: "	AddBookmarksToFrontEnabled = false"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'BookmarkTooltipFeatures' is not a valid config key for config category 'bookmarks'.
+Valid keys: [addBookmarksToFrontEnabled, dragToRearrangeBookmarksEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #40: "	BookmarkTooltipFeatures = PREVIEW"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'HoldShiftToShowBookmarkTooltipFeatures' is not a valid config key for config category 'bookmarks'.
+Valid keys: [addBookmarksToFrontEnabled, dragToRearrangeBookmarksEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #45: "	HoldShiftToShowBookmarkTooltipFeatures = true"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'DragToRearrangeBookmarksEnabled' is not a valid config key for config category 'bookmarks'.
+Valid keys: [addBookmarksToFrontEnabled, dragToRearrangeBookmarksEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #50: "	DragToRearrangeBookmarksEnabled = true"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'LowMemorySlowSearchEnabled' is not a valid config key for config category 'advanced'.
+Valid keys: [catchRenderErrorsEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #57: "	LowMemorySlowSearchEnabled = false"
+[045月2026 07:58:55.030] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'CatchRenderErrorsEnabled' is not a valid config key for config category 'advanced'.
+Valid keys: [catchRenderErrorsEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #62: "	CatchRenderErrorsEnabled = false"
+[045月2026 07:58:55.032] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'lookupFluidContentsEnabled' is not a valid config key for config category 'advanced'.
+Valid keys: [catchRenderErrorsEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #67: "	lookupFluidContentsEnabled = false"
+[045月2026 07:58:55.032] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'lookupBlockTagsEnabled' is not a valid config key for config category 'advanced'.
+Valid keys: [catchRenderErrorsEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #72: "	lookupBlockTagsEnabled = true"
+[045月2026 07:58:55.032] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'showTagRecipesEnabled' is not a valid config key for config category 'advanced'.
+Valid keys: [catchRenderErrorsEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #77: "	showTagRecipesEnabled = true"
+[045月2026 07:58:55.032] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'showCreativeTabNamesEnabled' is not a valid config key for config category 'advanced'.
+Valid keys: [catchRenderErrorsEnabled]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #82: "	showCreativeTabNamesEnabled = false"
+[045月2026 07:58:55.033] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'IngredientSortStages' is not a valid config key for config category 'sorting'.
+Valid keys: [ingredientSortStages, recipeSorterStages]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #102: "	IngredientSortStages = MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU"
+[045月2026 07:58:55.033] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'RecipeSorterStages' is not a valid config key for config category 'sorting'.
+Valid keys: [ingredientSortStages, recipeSorterStages]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #108: "	RecipeSorterStages = BOOKMARKED, CRAFTABLE"
+[045月2026 07:58:55.034] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: '[tags]' is not a valid category name.
+Valid names are: [appearance, cheating, bookmarks, tooltips, performance, lookups, lookupHistory, advanced, input, sorting, search, ingredientList, bookmarkList]
+Skipping all values until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #111: "[tags]"
+[045月2026 07:58:55.034] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #115: "	TagContentTooltipEnabled = true"
+[045月2026 07:58:55.034] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #120: "	HideSingleIngredientTagsEnabled = true"
+[045月2026 07:58:55.034] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'ModNameSearchMode' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #127: "	ModNameSearchMode = REQUIRE_PREFIX"
+[045月2026 07:58:55.035] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'TooltipSearchMode' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #132: "	TooltipSearchMode = ENABLED"
+[045月2026 07:58:55.035] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'TagSearchMode' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #137: "	TagSearchMode = REQUIRE_PREFIX"
+[045月2026 07:58:55.035] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'ColorSearchMode' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #142: "	ColorSearchMode = DISABLED"
+[045月2026 07:58:55.035] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'ResourceLocationSearchMode' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #147: "	ResourceLocationSearchMode = DISABLED"
+[045月2026 07:58:55.035] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'CreativeTabSearchMode' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #152: "	CreativeTabSearchMode = DISABLED"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'SearchAdvancedTooltips' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #157: "	SearchAdvancedTooltips = false"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'SearchModIds' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #162: "	SearchModIds = true"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'SearchShortModNames' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #167: "	SearchShortModNames = true"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: 'SearchIngredientAliases' is not a valid config key for config category 'search'.
+Valid keys: [modNameSearchMode, tagSearchMode, tooltipSearchMode, colorSearchMode, resourceLocationSearchMode, creativeTabSearchMode, searchAdvancedTooltips, searchModIds, searchModAliases, searchShortModNames, searchIngredientAliases]
+Skipping this key.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #172: "	SearchIngredientAliases = true"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: '[IngredientList]' is not a valid category name.
+Valid names are: [appearance, cheating, bookmarks, tooltips, performance, lookups, lookupHistory, advanced, input, sorting, search, ingredientList, bookmarkList]
+Skipping all values until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #175: "[IngredientList]"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #179: "	MaxRows = 16"
+[045月2026 07:58:55.036] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #184: "	MaxColumns = 9"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #189: "	HorizontalAlignment = RIGHT"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #194: "	VerticalAlignment = TOP"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #199: "	ButtonNavigationVisibility = ENABLED"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #204: "	DrawBackground = false"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: '[BookmarkList]' is not a valid category name.
+Valid names are: [appearance, cheating, bookmarks, tooltips, performance, lookups, lookupHistory, advanced, input, sorting, search, ingredientList, bookmarkList]
+Skipping all values until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #207: "[BookmarkList]"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #211: "	MaxRows = 16"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #216: "	MaxColumns = 9"
+[045月2026 07:58:55.037] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #221: "	HorizontalAlignment = LEFT"
+[045月2026 07:58:55.038] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #226: "	VerticalAlignment = TOP"
+[045月2026 07:58:55.038] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #231: "	ButtonNavigationVisibility = ENABLED"
+[045月2026 07:58:55.038] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSerializer/]: Expected a '[category]' here.
+Configs must start with a category before defining values.
+Skipping all lines until the first valid category is declared.
+Config file: D:\minecraft_121_modding\Blades-Derby\run-data\config\jei\jei-client.ini
+Line #236: "	DrawBackground = false"
+[045月2026 07:58:55.052] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[045月2026 07:58:55.057] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.820 milliseconds
+[045月2026 07:58:55.501] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/minecraft_121_modding/Blades-Derby/build/moddev/artifacts/neoforge-21.1.228-minecraft.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[045月2026 07:58:55.502] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/minecraft_121_modding/Blades-Derby/build/moddev/artifacts/neoforge-21.1.228-minecraft.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[045月2026 07:58:55.768] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[045月2026 07:58:55.794] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 26 ms
+[045月2026 07:58:55.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us for mod: blades_derby
+[045月2026 07:58:55.796] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us for mod: blades_derby finished after 1 ms
+[045月2026 07:58:55.796] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: SlashBlade Definition Registry
+[045月2026 07:58:55.914] [main/INFO] [net.minecraft.data.DataGenerator/]: SlashBlade Definition Registry finished after 116 ms
+[045月2026 07:58:55.914] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Support Card Definition Registry
+[045月2026 07:58:55.924] [main/INFO] [net.minecraft.data.DataGenerator/]: Support Card Definition Registry finished after 9 ms
+[045月2026 07:58:55.924] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 156 ms
+[045月2026 07:58:55.934] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 14, old count: 13, new count: 15, removed stale: 0, written: 2

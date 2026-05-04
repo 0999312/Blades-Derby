@@ -1,0 +1,21 @@
+{
+  "type": "friendship",
+  "max_damage": 5,
+  "ranking": "ssr",
+  "supporters": [
+    "umapyoi:saint_lite"
+  ],
+  "supports": [
+    {
+      "level": 2,
+      "support": "umapyoi:strength_support"
+    },
+    {
+      "level": 1,
+      "support": "umapyoi:skill_support",
+      "tag": {
+        "skill": "blades_derby:iaido"
+      }
+    }
+  ]
+}

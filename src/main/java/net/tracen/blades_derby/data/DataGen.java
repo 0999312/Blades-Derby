@@ -4,28 +4,24 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 import mods.flammpfeil.slashblade.registry.slashblade.SlashBladeDefinition;
-import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.HolderLookup.Provider;
+import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
-import net.minecraftforge.common.data.DatapackBuiltinEntriesProvider;
-import net.minecraftforge.data.event.GatherDataEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.tracen.blades_derby.BladesDerby;
 import net.tracen.blades_derby.data.builtin.BuiltInSlashBladeRegistry;
 import net.tracen.blades_derby.data.builtin.BuiltInSupportCardRegistry;
 import net.tracen.umapyoi.registry.training.card.SupportCard;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGen {
-	@SubscribeEvent
 	public static void dataGen(GatherDataEvent event) {
 		DataGenerator dataGenerator = event.getGenerator();
 		CompletableFuture<Provider> lookupProvider = event.getLookupProvider();
 		PackOutput packOutput = dataGenerator.getPackOutput();
 
-		dataGenerator.addProvider(event.includeServer(), new SlashBladeRecipeProvider(packOutput));
+		dataGenerator.addProvider(event.includeServer(), new SlashBladeRecipeProvider(packOutput, lookupProvider));
 
 		dataGenerator.addProvider(event.includeClient(), new BDLangProvider(packOutput));
 		

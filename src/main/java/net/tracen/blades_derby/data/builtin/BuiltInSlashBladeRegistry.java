@@ -9,12 +9,11 @@ import mods.flammpfeil.slashblade.registry.slashblade.EnchantmentDefinition;
 import mods.flammpfeil.slashblade.registry.slashblade.PropertiesDefinition;
 import mods.flammpfeil.slashblade.registry.slashblade.RenderDefinition;
 import mods.flammpfeil.slashblade.registry.slashblade.SlashBladeDefinition;
-import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.tracen.blades_derby.BladesDerby;
 import net.tracen.blades_derby.se.SpecialEffectRegistry;
 
@@ -25,7 +24,7 @@ public class BuiltInSlashBladeRegistry {
 	public static final ResourceKey<SlashBladeDefinition> UMA_ODACHI_HARU = register("uma_odachi_haru");
 	public static final ResourceKey<SlashBladeDefinition> UMA_ODACHI_HALO = register("uma_odachi_halo");
 
-	public static void registerAll(BootstapContext<SlashBladeDefinition> bootstrap) {
+	public static void registerAll(BootstrapContext<SlashBladeDefinition> bootstrap) {
 
 		bootstrap.register(UMA_HISHI,
 				new SlashBladeDefinition(BladesDerby.prefix("uma_hishi"),
@@ -66,7 +65,7 @@ public class BuiltInSlashBladeRegistry {
 								.slashArtsType(SlashArtsRegistry.SAKURA_END.getId()).build(),
 						List.of(
 								new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 1),
-								new EnchantmentDefinition(getEnchantmentID(Enchantments.MOB_LOOTING), 1)
+								new EnchantmentDefinition(getEnchantmentID(Enchantments.LOOTING), 1)
 								)));
 		
 		bootstrap.register(UMA_ODACHI_HALO,
@@ -82,12 +81,12 @@ public class BuiltInSlashBladeRegistry {
 								.slashArtsType(SlashArtsRegistry.CIRCLE_SLASH.getId()).build(),
 						List.of(
 								new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 1),
-								new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER_ARROWS), 1)
+								new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 1)
 								)));
 	}
 
-	private static ResourceLocation getEnchantmentID(Enchantment enchantment) {
-		return ForgeRegistries.ENCHANTMENTS.getKey(enchantment);
+	private static ResourceLocation getEnchantmentID(ResourceKey<Enchantment> key) {
+		return key.location();
 	}
 
 	private static ResourceKey<SlashBladeDefinition> register(String id) {

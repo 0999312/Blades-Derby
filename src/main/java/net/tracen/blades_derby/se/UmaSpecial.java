@@ -8,14 +8,14 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.tracen.blades_derby.BladesDerbyConfig;
 import net.tracen.blades_derby.umaskill.UmaSkillRegistry;
 import net.tracen.umapyoi.api.UmapyoiAPI;
 import net.tracen.umapyoi.utils.UmaSoulUtils;
 
-@EventBusSubscriber
+@EventBusSubscriber(modid = "blades_derby")
 public class UmaSpecial extends SpecialEffect {
 
 	public UmaSpecial() {
