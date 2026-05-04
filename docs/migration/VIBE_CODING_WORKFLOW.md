@@ -137,16 +137,15 @@ $env:MC_FORGE_PROJECT_REPO   = "https://github.com/user/my-forge-mod"
 |---|---|---|
 | **规划管理** | 手动维护 MIGRATION_PLAN.md，无自动化工具 | **GSD 全自动**：自动生成 phase plan、需求追踪、进度管理、交接文档 |
 | **代码复核** | 使用 **GPT 5.4** 对代码和进度进行独立复查 | 使用 **port-review 代理**（同 DeepSeek V4 Pro 模型），在 opencode 内部自动复核 |
-| **API 差异处理** | 手动搜索文档，凭记忆+文档交叉验证 | **loader-diff-research + vanilla-code-research** 专用代理，结构化输出（旧API→新API→证据→验证方式） |
-| **上下文管理** | 依赖单会话记忆，易丢失 | **/handoff** 命令自动生成 Next Prompt，新会话可无缝续接 |
-| **模型** | GPT 5.4（主）+ GPT 5.4（复核） | **DeepSeek V4 Pro** 统一所有任务 |
+| **API 差异处理** | **loader-diff-research + vanilla-code-research** 专用代理，结构化输出（旧API→新API→证据→验证方式） | 与 SlashBlade 使用**相同的处理方式** |
+| **上下文管理** | 通过在 AGENTS.md 强制要求，模型在上下文紧张时自动输出 Next Prompt | **GSD 接手**：通过 `/handoff` 和 `/gsd-transition` 命令自动化交接，生成 Next Prompt |
+| **模型** | **DeepSeek V4 Flash**（主）+ **GPT 5.4**（复核 / 复杂问题修复） | **DeepSeek V4 Pro** 统一所有任务 |
 
 ### 旧工作流的核心痛点
 
-1. **规划成本高**：每次需要手动分析代码依赖关系、划分 phase、追踪执行进度
+1. **规划成本高**：每次需要手动分析代码依赖关系、划分 phase、追踪执行进度，无 GSD 自动化支持
 2. **复核滞后**：GPT 5.4 作为独立复核步骤，需要额外调用，结果与主开发上下文脱离
-3. **上下文断裂**：大项目长时间会话后上下文过载，换新会话需要大量重复描述
-4. **无 API 结论缓存**：每次遇到相同 API 差异都需要重新查询
+3. **上下文手动管理不可靠**：SlashBlade 虽通过 AGENTS.md 要求模型在上下文紧张时输出 Next Prompt，但模型自检机制不稳定——常出现未触发、触发过迟、或输出信息不全的情况，导致新会话仍需大量重复描述。本项目由 GSD 的 `/handoff` 与 `/gsd-transition` 接管上下文管理后，交接质量与一致性显著改善
 
 ---
 
